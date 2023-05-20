@@ -14,7 +14,7 @@ public class ShowWindow2 {
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.getContentPane().setBackground(Color.red);
         window.setLayout(null);
-        window.setLocation(100,100);
+        window.setLocation(200,200);
 
 
         // Create the first text field
