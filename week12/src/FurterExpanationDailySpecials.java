@@ -77,8 +77,10 @@ public class FurterExpanationDailySpecials {
             System.out.println("Looks like you will be ordering only " + amount + " of " + coffee + " today! Your total amount will be: $" + String.format("%.2f", total));
         } else if (amount >= 5 && amount <= 9) {
             total = (amount * price) * 0.9;
+            System.out.println("A  group discount! You have ordered " + amount + " of  " + coffee + ". Your regular price should be: " + String.format("%.2f",amount*price));
+            System.out.println("But will be charged  only: $ " +String.format("%.2f", total));
 
-            System.out.println("A group discount! Your price is $ " + price + " you have ordered " + amount+ " " +coffee+ " , but will pay only $" +String.format("%.2f", total));
+//            System.out.println("A group discount! Your price is " + price + " you have ordered " + amount+ " " +coffee+ " , but will pay only $" +String.format("%.2f", total));
 
         } else if ( amount>= 10){
             System.out.println("A bigger group discount! You have ordered " + amount + " of  " + coffee + ". Your regular price should be: " + String.format("%.2f",amount*price));
